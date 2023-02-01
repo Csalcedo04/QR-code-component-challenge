@@ -1,46 +1,62 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-.container{
+.content{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+.attribution{
     width: 18.66rem;
     height: 470px;
-    
-    margin: 50px auto ;
     background-color: hsl(0, 0%, 100%);
     border-radius: 1em;
     border-style: none;
 }
+
+.container { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.container a { 
+    color: hsl(228, 45%, 44%); 
+}
+
 .qr{
-    width: 270px;
-    height: 270px;
+    width: 18em;
+    height: 18em;
     position: relative;
-    margin: 13px 13px 5px 13px;
-    border-radius: 1em;
+    margin: 0.866em 0.866em 5px 0.866em;
+    border-radius: 0.6em;
 }
 
 .text{
-    width: 230px;
+    width: 15.33em;
     height: auto;
-    margin-top: 5px;
+    margin-top: 0.33em;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
+
 .title{
     color: hsl(218, 44%, 22%);
     text-align: righ;
-    margin-block-start: 1em;
-    margin-block-end: 0.8em;
-    font-size: 18px;
+    font-size: 1.2em;
+    letter-spacing: 0.07em;
+    margin-bottom: 0.9375rem;
 }
+
 .para{
+    font-weight: normal;
     text-align: center;
-    margin-block-start: 0.8em;
     color: hsl(220, 15%, 55%);
-    font-size: 14px;
+    font-size: 0.93em;
+    letter-spacing: 0.03em;
 }
+
 body{
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400, 700;
     background-color: hsl(212, 45%, 89%) ;
+    margin: 0;
+	padding: 0;
+	border: 0;
 }
